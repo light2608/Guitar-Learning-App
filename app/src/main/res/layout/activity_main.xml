@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="149dp">
+
+        <GridLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/lightblack"
+            android:orientation="vertical"
+            android:rowCount="50"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:fontFamily="sans-serif-condensed-light"
+                android:gravity="center"
+                android:text="Choose the song you want to learn"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="38sp"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/friends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:background="@color/buttonblack"
+                android:fontFamily="@font/g_light"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="Marshmello, Anne-Marie - FRIENDS"/>
+
+            <Button
+                android:id="@+id/countingstars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="OneRepublic - Counting Stars"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wakemeup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Avicii - Wake Me Up"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/faded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Alan Walker - Faded"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/closer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:background="@color/buttonblack"
+                android:fontFamily="@font/g_light"
+                android:text="The Chainsmokers - Closer ft.Halsey"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/treatubetter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Shawn Mendes - Treat You Better"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/alonepart2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Alan Walker, Ava Max - Alone, Pt. II"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/itsyou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Ali Gatie - It's You"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/despacito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:background="@color/buttonblack"
+                android:fontFamily="@font/g_light"
+                android:text="Luis Fonsi - Despacito ft. Daddy Yankee"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/loveyourself"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Justin Bieber - Love Yourself"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/perfect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Ed Sheeran - Perfect"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/canthelpfalling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Elvis Presley - Can't Help Falling In Love"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/senorita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="13"
+                android:layout_column="0"
+                android:background="@color/buttonblack"
+                android:fontFamily="@font/g_light"
+                android:text="Shawn Mendes, Camila Cabello - Señorita"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/greenday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Green Day - Boulevard Of Broken Dreams"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/numb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="15"
+                android:layout_column="0"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Linkin Park - Numb"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/letmeloveyou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="16"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="DJ Snake ft. Justin Bieber - Let Me Love You"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/wedonttalk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:background="@color/buttonblack"
+                android:fontFamily="@font/g_light"
+                android:text="Charlie Puth - We Don't Talk Anymore"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/believer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="18"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Imagine Dragons - Believer"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/castle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="19"
+                android:layout_column="0"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Ed Sheeran - Castle On The Hill"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/makeitright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="20"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="BTS(방탄소년단)Make It Right ft. Lauv)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/stitches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="21"
+                android:layout_column="0"
+                android:background="@color/lightblack"
+                android:fontFamily="@font/g_light"
+                android:text="Shawn Mendes - Stitches"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/girlslikeu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="22"
+                android:layout_column="0"
+                android:background="@color/black"
+                android:fontFamily="@font/g_light"
+                android:text="Maroon 5 - Girls like you"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </GridLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guitarlearningapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Canthelp"></activity>
+        <activity android:name=".GirllikeyouActivity" />
+        <activity android:name=".Stiches" />
+        <activity android:name=".Makeitright" />
+        <activity android:name=".Castle" />
+        <activity android:name=".Believer" />
+        <activity android:name=".Wedonttalk" />
+        <activity android:name=".Letmeloveu" />
+        <activity android:name=".Numb" />
+        <activity android:name=".Greenday" />
+        <activity android:name=".Senorita" />
+        <activity android:name=".Perfect" />
+        <activity android:name=".Loveyourself" />
+        <activity android:name=".Despacito" />
+        <activity android:name=".Itsyou" />
+        <activity android:name=".Alonepart2" />
+        <activity android:name=".Treatubetter" />
+        <activity android:name=".Closer" />
+        <activity android:name=".Faded" />
+        <activity android:name=".Wakemeup" />
+        <activity android:name=".CountingstarsActivity" />
+        <activity android:name=".FriendsActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
